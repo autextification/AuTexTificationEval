@@ -1,4 +1,4 @@
-# AuTexTificationEval
+# AuTexTification Evaluation
 This repo contains the script the organizers will use to evaluate the submissions.
 
 As participant, you can use it as well to evaluate your models during the training phase of the competition.
