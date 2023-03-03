@@ -44,7 +44,7 @@ subtask_2 \
 es
 ```
 
-which will return a dataframe with four columns: *team* (team name), *run* (run name), *all_metrics* (metrics from sklearn.classification_report), *mf1* (macro-f1), and *mf1_cinterval* (confidence interval of macro-f1). If you run the evaluation script with the truths and preds of this repo, you will get something similar to:
+which will return a dataframe with four columns, sorted by macro-f1 values: *team* (team name), *run* (run name), *all_metrics* (metrics from sklearn.classification_report), *mf1* (macro-f1), and *mf1_cinterval* (confidence interval of macro-f1). If you run the evaluation script with the truths and preds of this repo, you will get something similar to:
 
 ```     
       team    run                                        all_metrics  mf1 mf1_cinterval
